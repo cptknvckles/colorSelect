@@ -8,17 +8,23 @@
     <title>ColorFlipper</title>
 </head>
 <body>
-    <div id="centerMain">
-        <div id="centerText">
-            <p>Color Flipp</p>
-            <hr>
-            <p id="show"></p>
+    
+        <div id="centerMain">
+            <div id="centerText">
+                <p>Color Flipp</p>
+                <hr>
+                <span>Degree Slider</span>
+                <input class="degrees" type="range" id="angle-slider" min="45" max="135" value="0">
+                <span class="degree"></span>
+                <p id="show"></p>
+                <p class="showGrad"></p>
+            </div>
+            <div id="centerButton">
+                <button id="flip">Flip!</button>
+                <button id="gradient">Gradient!</button>
+            </div>
         </div>
-        <div id="centerButton">
-            <button id="flip">Flip!</button>
-        </div>
-    </div>
-
+        
     <script src="main.js"></script>
 </body>
 </html>
