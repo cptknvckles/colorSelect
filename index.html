@@ -8,14 +8,19 @@
     <title>ColorFlipper</title>
 </head>
 <body>
-    
-        <div id="centerMain">
+    <header class="colorChanger">
+        Color Flipp
+    </header>
+    <div id="centerMain">
             <div id="centerText">
                 <p>Color Flipp</p>
                 <hr>
-                <span>Degree Slider</span>
+                <span>Degree</span>
                 <input class="degrees" type="range" id="angle-slider" min="45" max="135" value="0">
                 <span class="degree"></span>
+                <br>
+                <input type="checkbox" id="Animate" class="animate">
+                <label for="Animate">Animate</label>
                 <p id="show"></p>
                 <p class="showGrad"></p>
             </div>
@@ -24,7 +29,10 @@
                 <button id="gradient">Gradient!</button>
             </div>
         </div>
-        
+        <footer class="footer">
+            <p>If you would like your selected gradient to be animated do this</p>
+            <p>Made with LOVE OMGOSH AND COFFEE (C) CPTKNVCKLES</p>
+        </footer>
     <script src="main.js"></script>
 </body>
 </html>
